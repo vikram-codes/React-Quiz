@@ -1,5 +1,9 @@
 import { useReducer, useState } from "react";
 
+function reducer(state, action) {
+  console.log("hehe");
+}
+
 function DateCounter() {
   const [count, setCount] = useState(0);
   const [step, setStep] = useState(1);
