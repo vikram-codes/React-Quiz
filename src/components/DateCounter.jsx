@@ -1,7 +1,7 @@
 import { useReducer, useState } from "react";
 
 function reducer(state, action) {
-  console.log("hehe");
+  dispatch(0);
 }
 
 function DateCounter() {
