@@ -13,10 +13,6 @@ function DateCounter() {
   const date = new Date("june 21 2027");
   date.setDate(date.getDate() + count);
 
-  function dispatch() {
-    console.log("inside dispatch");
-  }
-
   function dec() {
     // setCount((count) => count - 1);
     setCount((count) => count - step);
