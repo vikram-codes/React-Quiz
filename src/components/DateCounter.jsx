@@ -9,6 +9,10 @@ function DateCounter() {
     console.log("inside reduer");
   }
 
+  function insider() {
+    dispatch(23);
+  }
+
   // This mutates the date object.
   const date = new Date("june 21 2027");
 
